@@ -9,4 +9,3 @@ digest.update(DATA)
 hash_value = digest.finalize()
 
 print("SHA-256 Hash:", hash_value.hex())
-
